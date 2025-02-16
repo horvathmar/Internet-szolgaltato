@@ -87,7 +87,7 @@
             int j1 = int.Parse(Console.ReadLine());
             try
             {
-                Felhasznalo p1 = new Felhasznalo(nev1, j1);
+                //Ugyfel p1 = new Ugyfel(nev1, j1);
                 Console.WriteLine($"{nev1} sikeresen csatlakozott a hálózathoz.");
                 //Felhasznalo p2 = new Felhasznalo("Gezuka", 1234567);
 
