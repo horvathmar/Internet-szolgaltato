@@ -16,6 +16,8 @@ namespace Internet_szolgaltato
         public void Feldolgoz(InternetCsomag csomag)
         {
             // TODO: Adatfeldolgozás 
+            //return $"Adat: {csomag.Adat}, Méret: {csomag.Meret} bájt, Időbélyeg: {csomag.Ido}";
+            throw new Exception($"Adat: {csomag.Adat}, Méret: {csomag.Meret} bájt");
         }
     }
 }
