@@ -17,7 +17,7 @@ namespace Internet_szolgaltato
         {
             // TODO: Adatfeldolgozás 
             //return $"Adat: {csomag.Adat}, Méret: {csomag.Meret} bájt, Időbélyeg: {csomag.Ido}";
-            throw new Exception($"Adat: {csomag.Adat}, Méret: {csomag.Meret} bájt");
+            //throw new Exception($"Adat: {csomag.Adat}, Méret: {csomag.Meret} bájt");
         }
     }
 }
